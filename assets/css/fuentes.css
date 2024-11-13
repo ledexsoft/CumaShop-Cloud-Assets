@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url('../fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url('../fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Define las clases "sf-display-bold", "sf-display-medium" y "sf-display-regular" y aplica las fuentes correspondientes */
+.sf-display-bold {
+    font-family: 'SF Pro Display Bold', sans-serif;
+    /* Añade otros estilos de fuente según sea necesario, como el tamaño, color, etc. */
+}
+
+.sf-display-medium {
+    font-family: 'SF Pro Display Medium', sans-serif;
+    /* Añade otros estilos de fuente según sea necesario, como el tamaño, color, etc. */
+}
+
+.sf-display-regular {
+    font-family: 'SF Pro Display Regular', sans-serif;
+    /* Añade otros estilos de fuente según sea necesario, como el tamaño, color, etc. */
+}
